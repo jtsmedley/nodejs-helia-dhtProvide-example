@@ -1,0 +1,41 @@
+{
+  "name": "helia-dht-provide-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^15.0.0",
+    "@chainsafe/libp2p-yamux": "^6.0.1",
+    "@helia/block-brokers": "^1.0.0",
+    "@helia/unixfs": "2.0.1",
+    "@libp2p/autonat": "^1.0.9",
+    "@libp2p/bootstrap": "^10.0.13",
+    "@libp2p/circuit-relay-v2": "^1.0.12",
+    "@libp2p/delegated-content-routing": "^4.0.11",
+    "@libp2p/delegated-peer-routing": "^4.0.14",
+    "@libp2p/identify": "^1.0.12",
+    "@libp2p/kad-dht": "^12.0.4",
+    "@libp2p/mdns": "^10.0.13",
+    "@libp2p/mplex": "^10.0.13",
+    "@libp2p/peer-id": "^4.0.5",
+    "@libp2p/peer-id-factory": "^4.0.5",
+    "@libp2p/ping": "^1.0.10",
+    "@libp2p/prometheus-metrics": "^3.0.13",
+    "@libp2p/tcp": "^9.0.12",
+    "@libp2p/upnp-nat": "^1.0.10",
+    "@libp2p/webrtc": "^4.0.17",
+    "@libp2p/websockets": "^8.0.13",
+    "@libp2p/webtransport": "^4.0.17",
+    "@multiformats/sha3": "^3.0.2",
+    "axios": "^1.6.6",
+    "datastore-level": "^10.1.6",
+    "helia": "^3.0.1",
+    "ipfs-http-client": "^60.0.1",
+    "it-drain": "^3.0.5",
+    "libp2p": "^1.2.0",
+    "multiformats": "^13.0.1"
+  },
+  "devDependencies": {
+    "prettier": "3.2.4"
+  }
+}
